@@ -3,7 +3,7 @@ import RestaurantCard from "./RestaurantCard.jsx";
 import { useEffect, useState } from "react";
 import Shimmer from "./shimmer";
 import { Link } from "react-router-dom";
-import { filterData } from "../utils/helper.jsx";
+import { filterData } from "../Utils/helper.jsx";
 import useOnline from "../Utils/useOnline.jsx";
 
 const Body = () => {
